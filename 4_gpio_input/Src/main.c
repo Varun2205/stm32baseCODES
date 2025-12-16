@@ -51,6 +51,19 @@ int main (void){
 			//Turn it off
 			GPIOA->BSRR = (1U<<21);
 		}
+
+
+
+		/*// Uncomment this to make sure you can toggle edge triggered LED
+		static uint8_t last = 1;
+		uint8_t current = (GPIOC->IDR & BTN_PIN) ? 1 : 0;
+
+		if (last == 1 && current == 0)
+		{
+		    GPIOA->ODR ^= LED_PIN;
+		}
+		last = current;
+		/*
 	}
 
 
