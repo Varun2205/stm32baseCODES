@@ -1,0 +1,110 @@
+!SESSION 2026-07-21 14:43:46.494 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-07-21 14:44:38.678
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-21 14:44:38.678
+!MESSAGE Log4j2 initialized with config file /home/varun/Documents/stm32BAREmetal/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-21 14:44:41.085
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 14:48:06.383
+!MESSAGE Indexed '0_led_toggle_addr' (3 sources, 53 headers) in 0.901 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2026-07-21 14:56:14.302 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-07-21 14:56:20.245
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-21 14:56:20.245
+!MESSAGE Log4j2 initialized with config file /home/varun/Documents/stm32BAREmetal/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-21 14:56:23.380
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-07-21 16:02:24.910 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-07-21 16:02:29.602
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-21 16:02:29.603
+!MESSAGE Log4j2 initialized with config file /home/varun/Documents/stm32BAREmetal/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-21 16:02:32.632
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-07-21 16:14:07.947 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-07-21 16:14:12.078
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-21 16:14:12.078
+!MESSAGE Log4j2 initialized with config file /home/varun/Documents/stm32BAREmetal/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-21 16:14:15.254
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2026-07-21 16:14:23.330
+!MESSAGE Could not determine GDB version using command: arm-none-eabi-gdb --version
+!STACK 0
+java.lang.Exception: arm-none-eabi-gdb: error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory
+
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.getGDBVersion(LaunchUtils.java:352)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getGDBVersion(GdbLaunch.java:536)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:157)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 16:18:27.628
+!MESSAGE Indexed '1_led_toggle_addr_struct' (3 sources, 0 headers) in 0.08 sec: 68 declarations; 90 references; 10 unresolved inclusions; 0 syntax errors; 31 unresolved names (16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 16:30:56.479
+!MESSAGE Indexed '2_gpio_output' (3 sources, 53 headers) in 0.237 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 16:44:17.886
+!MESSAGE Indexed '3_gpio_bsrr' (3 sources, 60 headers) in 0.464 sec: 2,856 declarations; 3,843 references; 3 unresolved inclusions; 30 syntax errors; 707 unresolved names (9.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 16:45:43.185
+!MESSAGE Indexed '4_gpio_input' (3 sources, 60 headers) in 0.401 sec: 2,857 declarations; 3,851 references; 3 unresolved inclusions; 30 syntax errors; 707 unresolved names (9.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 16:48:53.141
+!MESSAGE Indexed '4_gpio_input_toggle' (3 sources, 62 headers) in 0.262 sec: 3,271 declarations; 5,453 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 16:51:52.221
+!MESSAGE Indexed '5_uart_tx' (3 sources, 60 headers) in 0.413 sec: 2,861 declarations; 3,887 references; 3 unresolved inclusions; 30 syntax errors; 712 unresolved names (9.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 16:56:19.206
+!MESSAGE Indexed '6_uart_printf' (3 sources, 62 headers) in 0.237 sec: 3,293 declarations; 5,495 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 17:01:54.032
+!MESSAGE Indexed '7_uart_modular' (3 sources, 64 headers) in 0.253 sec: 3,440 declarations; 5,636 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-07-21 17:02:06.685
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-21 17:10:35.326
+!MESSAGE Indexed '8_uart_rx' (4 sources, 65 headers) in 0.285 sec: 3,439 declarations; 5,647 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
